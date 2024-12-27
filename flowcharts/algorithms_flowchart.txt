@@ -1,0 +1,60 @@
+Start
+|
+|-- Euclidean Algorithm
+|   |-- Input: a, b
+|   |-- While b != 0:
+|   |   |-- a, b = b, a mod b
+|   |-- Output: GCD
+|
+|-- Huffman Coding
+|   |-- Input: Text
+|   |-- Build frequency table
+|   |-- Build Huffman tree
+|   |-- Generate codes
+|   |-- Encode text
+|   |-- Output: Encoded text
+|
+|-- Union-Find
+|   |-- Input: Node1, Node2
+|   |-- Find root of Node1 and Node2
+|   |-- If roots are different, union them
+|   |-- Output: Connected status
+|
+|-- Binary Search
+|   |-- Input: Sorted array, target
+|   |-- Set left, right pointers
+|   |-- While left ≤ right:
+|   |   |-- Calculate mid
+|   |   |-- If mid equals target, return index
+|   |   |-- If mid < target, move left pointer
+|   |   |-- If mid > target, move right pointer
+|   |-- Output: Index or -1
+|
+|-- Breadth-First Search (BFS)
+|   |-- Input: Graph, start node
+|   |-- Initialize queue with start node
+|   |-- While queue is not empty:
+|   |   |-- Dequeue node, mark as visited
+|   |   |-- Enqueue unvisited neighbors
+|   |-- Output: Visited nodes
+|
+|-- Depth-First Search (DFS)
+|   |-- Input: Graph, start node
+|   |-- Mark start node as visited
+|   |-- For each unvisited neighbor, call DFS
+|   |-- Output: Visited nodes
+|
+|-- Linear Search
+|   |-- Input: Array, target
+|   |-- For each element:
+|   |   |-- If element equals target, return index
+|   |-- Output: Index or -1
+|
+|-- Quick Sort
+|   |-- Input: Array
+|   |-- If array length ≤ 1, return array
+|   |-- Choose pivot, partition array
+|   |-- Recursively sort partitions
+|   |-- Output: Sorted array
+|
+End
